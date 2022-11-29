@@ -1,6 +1,5 @@
 #23
 import cv2
-import cvzone
 import numpy as np
 #import keyboard
 
@@ -8,9 +7,9 @@ face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eyes_detector = cv2.CascadeClassifier('haarcascade_eye.xml')
 lips_detector = cv2.CascadeClassifier('haarcascade_smile.xml')
 
-emoji = cv2.imread('emoji1.jpg', cv2.IMREAD_UNCHANGED)
-lips_sticker = cv2.imread('Kiss-mouth.png', cv2.IMREAD_UNCHANGED)
-eye_sticker = cv2.imread('emoji-eye.png', cv2.IMREAD_UNCHANGED)
+emoji = cv2.imread('sticker\emoji1.jpg', cv2.IMREAD_UNCHANGED)
+lips_sticker = cv2.imread('sticker\Kiss-mouth.png', cv2.IMREAD_UNCHANGED)
+eye_sticker = cv2.imread('sticker\emoji-eye.png', cv2.IMREAD_UNCHANGED)
 
 #def remove_back(emj , position):
     
